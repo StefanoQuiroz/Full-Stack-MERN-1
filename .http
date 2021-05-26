@@ -1,0 +1,28 @@
+### POST Product
+POST http://localhost:8000/api
+Content-Type: application/json
+
+{
+    "Title": "Hp Omen",
+    "Price": 2150,
+    "Description": "PC Gamer"
+}
+
+###GET ALL PRODUCTS
+GET http://localhost:8000/api/products
+
+
+###GET Product
+GET http://localhost:8000/api/product/60ac6eaaced89a27a4f5d199
+
+###PUT Product
+PUT http://localhost:8000/api/product/60ac6eaaced89a27a4f5d199
+content-type: application/json
+
+{
+    "Price": 21.50
+}
+
+
+###DELETE Product
+DELETE http://localhost:8000/api/product/60ac716edd422e1fd4f29053
